@@ -1,0 +1,22 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+cmd = "go build -o ./tmp/chain ./cmd"
+bin = "./tmp/chain"
+clean = false
+include_ext = ["go"]
+exclude_dir = []
+exclude_file = []
+exclude_hidden = false
+
+[log]
+filename = "air_errors.log"
+max_size = 5
+max_backups = 10
+max_age = 7
+
+[daemon]
+run = true
+watch = true
+watch_dir = true
