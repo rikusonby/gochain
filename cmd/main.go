@@ -2,7 +2,7 @@ package main
 
 import (
 	"chain/api/routes"
-	"github.com/labstack/echo/v4"
+	echo "github.com/labstack/echo/v4"
 )
 
 func main() {

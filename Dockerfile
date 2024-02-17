@@ -13,6 +13,6 @@ COPY . /www
 
 RUN go mod tidy
 
-EXPOSE 2313
+EXPOSE 1323
 
 CMD ["/root/go/bin/air"]
